@@ -1,0 +1,46 @@
+* {
+    font-family: Roboto
+}
+
+nav {
+    width: 82%;
+    display: flex;
+    margin: 35px auto 0 auto;
+    justify-content: space-between;
+    z-index: 4;
+    align-items: center;
+    height: 67px
+}
+
+.nav-right-texts-wrapper, 
+.nav-right-texts-wrapper-shrinked {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.nav-right-texts-wrapper li, 
+.nav-right-texts-wrapper-shrinked li {
+    list-style-type: none;
+    font-weight: 400;
+    font-weight: 16px;
+    padding-bottom: 15px
+}
+
+.nav-right-texts-wrapper li:hover, 
+.nav-right-texts-wrapper-shrinked li:hover {
+    color: #FF7008;
+    cursor: pointer;
+    transition: .3s ease-in;
+    
+}
+
+.nav-right-texts {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-right-texts-active {
+    border-bottom: 2px solid #FF7008;
+    color: #FF7008;
+}
